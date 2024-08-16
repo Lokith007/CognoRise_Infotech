@@ -1,4 +1,4 @@
-// Set your target date and time here (format: YYYY-MM-DDTHH:MM)
+
 let targetDate = new Date("2025-01-25T23:59:59");
 
 function updateCountdown() {
