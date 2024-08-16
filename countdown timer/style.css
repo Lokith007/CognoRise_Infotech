@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+#timer {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.time-unit {
+    display: inline-block;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
