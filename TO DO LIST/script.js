@@ -1,10 +1,10 @@
-// script.js
+
 document.addEventListener('DOMContentLoaded', () => {
     const taskInput = document.getElementById('taskInput');
     const addTaskButton = document.getElementById('addTaskButton');
     const taskList = document.getElementById('taskList');
 
-    // Function to create a new task element
+    
     function createTaskElement(taskText) {
         const li = document.createElement('li');
 
@@ -35,13 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
         return li;
     }
 
-    // Event listener for adding a new task
+    
     addTaskButton.addEventListener('click', () => {
         const taskText = taskInput.value.trim();
         if (taskText) {
             const newTask = createTaskElement(taskText);
             taskList.appendChild(newTask);
-            taskInput.value = ''; // Clear input field
+            taskInput.value = ''; 
         }
     });
 
